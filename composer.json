@@ -5,7 +5,7 @@
         "althinect",
         "filament-spatie-roles-permissions"
     ],
-    "homepage": "https://github.com/althinect/filament-spatie-roles-permissions",
+    "homepage": "https://github.com/clifea/filament-spatie-roles-permissions",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Althinect\\FilamentSpatieRolesPermissions\\": "src"
+            "Clifea\\FilamentSpatieRolesPermissions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Althinect\\FilamentSpatieRolesPermissions\\Tests\\": "tests"
+            "Clifea\\FilamentSpatieRolesPermissions\\Tests\\": "tests"
         }
     },
     "scripts": {
