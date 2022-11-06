@@ -1,6 +1,6 @@
 <?php 
 
-namespace Althinect\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages;
+namespace Clifea\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages;
 
 use Clifea\FilamentSpatieRolesPermissions\Resources\PermissionResource;
 use Filament\Resources\Pages\EditRecord;
