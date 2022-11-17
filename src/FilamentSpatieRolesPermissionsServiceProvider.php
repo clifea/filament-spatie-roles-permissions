@@ -2,7 +2,6 @@
 
 namespace Clifea\FilamentSpatieRolesPermissions;
 
-use Clifea\FilamentSpatieRolesPermissions\Resources\PermissionResource;
 use Clifea\FilamentSpatieRolesPermissions\Resources\RoleResource;
 use Filament\PluginServiceProvider;
 use Illuminate\Support\ServiceProvider;
@@ -24,7 +23,6 @@ class FilamentSpatieRolesPermissionsServiceProvider extends PluginServiceProvide
     {
         return [
             RoleResource::class,
-            PermissionResource::class
         ];
     }
 }
