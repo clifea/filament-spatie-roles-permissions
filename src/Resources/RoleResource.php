@@ -41,6 +41,11 @@ class RoleResource extends Resource
         return __('filament-spatie-roles-permissions::filament-spatie.section.roles');
     }
 
+    public static function getNavigationSort(): ?int
+    {
+    return 1;
+    }
+
     public static function form(Form $form): Form
     {
         return $form
